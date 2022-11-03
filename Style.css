@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+ 
+.heading{
+    text-align: center;
+    color: rgb(248, 7, 148);
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+input{
+    width: 50vh;
+    height: 5vh;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+ 
+.container-input{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 110vh;
+    
+}
+ 
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(199,171,224);
+    margin: 0px 150px;
+    height: 40vh;
+    justify-content: center;
+}
+ 
+#button{
+    width:15vh;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(46,122,122);
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+ 
+.container-result{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(171,224,206);
+    margin: 10px 150px;
+    height: 40vh;
+    justify-content: center;
+    font:'rubik',sans-serif;
+}
+ 
+.container-result-date{
+    display: flex;
+}
+ 
+.container-result-ovulation-date{
+    display: flex;
+}
+ 
+.container-result-fertility-period{
+    display: flex;
+}
+ 
+#resutl{
+    padding-left: 10px;
+    color: red;
+}
+ 
+#result-ovulation{
+    padding-left: 10px;
+    color: aliceblue;
+}
